@@ -24,15 +24,12 @@ WA.onInit().then(() => {
 	WA.chat.sendChatMessage('Hello, Welcome to DBYs Coding Academy Metaverse!', 'DBYs Coding Academy Admin');
 
 	WA.ui.modal.openModal({
-		title: "DBYs Coding Academy Metaverse",// mandatory, title of the iframe modal.
-		src: "https://www.dbyoungs.com", // mandatory, url of the iframe modal.
-		allow: "fullscreen", // optional by default null.
-		allowApi: true, // optional by default false.
-		position: "center", // optional by default right. Reference for position: center / left / right.
-		() => {
-			console.log("The modal was closed");
-		} // optionall, function when the user close the modal.
-	}): void
+		title: "DBYs Coding Academy Metaverse",
+		src: "https://www.dbyoungs.com", 
+		allow: "fullscreen", 
+		allowApi: true, 
+		position: "center"
+	})
 	
 	
 	
