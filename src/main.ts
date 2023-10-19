@@ -20,7 +20,7 @@ WA.onInit().then(() => {
 
     WA.room.area.onLeave('clock').subscribe(closePopup)
 
-    console.log(WA.ui.actionBar);
+    console.log("Jeff", WA.ui.actionBar);
 	// WA.chat.sendChatMessage('Hello, Welcome to DBYs Coding Academy Metaverse!', 'DBYs Coding Academy Admin');
 
     WA.ui.actionBar.removeButton("invite-btn");
