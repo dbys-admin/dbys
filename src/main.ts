@@ -30,7 +30,7 @@ WA.onInit().then(() => {
 		allowApi?: true, // optional by default false.
 		position?: "center", // optional by default right. Reference for position: center / left / right.
 		() => {
-			console.log("The modal was closed"
+			console.log("The modal was closed")
 		} // optionall, function when the user close the modal.
 	}): void
 	
