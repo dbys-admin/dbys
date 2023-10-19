@@ -22,19 +22,26 @@ WA.onInit().then(() => {
 
     console.log("Jeff", WA.ui.actionBar);
 	// WA.chat.sendChatMessage('Hello, Welcome to DBYs Coding Academy Metaverse!', 'DBYs Coding Academy Admin');
-
+    localStorage.setItem("Modal", "False");
     WA.ui.actionBar.removeButton("invite-btn");
     WA.ui.actionBar.removeButton("menuIcon");
 
     WA.ui.actionBar.removeButton("backOfficeIcon");
 
-	WA.ui.modal.openModal({
-		title: "DBYs Coding Academy Metaverse",
-		src: "https://www.dbyoungs.com", 
-		allow: "fullscreen", 
-		allowApi: true, 
-		position: "center"
-	})
+    if (localStorage.getItem("Modal") == "False"){
+        WA.ui.modal.openModal({
+            title: "DBYs Coding Academy Metaverse",
+            src: "https://www.dbyoungs.com", 
+            allow: "fullscreen", 
+            allowApi: true, 
+            position: "center"
+        }, (() => {
+                localStorage.setItem("Modal", "True");
+                console.log("Modal Closed")
+            })
+        )
+    }
+
 	
 	
 	
