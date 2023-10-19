@@ -168,7 +168,7 @@
          "name":"walls",
          "opacity":1,
          "type":"group",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -177,7 +177,7 @@
          "layers":[
                 {
                  "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 1827, 0, 0, 0, 0, 0, 0, 0, 1828, 1829, 1830, 1831, 1832, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -263,7 +263,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":320,
                  "id":18,
                  "name":"jitsiConference",
@@ -279,13 +278,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":219.090909090909,
                  "x":32,
                  "y":96
                 }, 
                 {
-                 "class":"area",
                  "height":71.612250966399,
                  "id":19,
                  "name":"website",
@@ -311,13 +310,13 @@
                          "value":"Press SPACE or touch here to open a custom website"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":96,
                  "x":256,
                  "y":96
                 }, 
                 {
-                 "class":"area",
                  "height":96,
                  "id":22,
                  "name":"to-office",
@@ -328,13 +327,13 @@
                          "value":"map.tmj#from-conference"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":96,
                  "x":608,
                  "y":0
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":23,
                  "name":"from-office",
@@ -345,6 +344,7 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":640,
@@ -352,7 +352,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -362,7 +362,6 @@
          "name":"configuration",
          "objects":[
                 {
-                 "class":"variable",
                  "height":0,
                  "id":20,
                  "name":"websiteURL",
@@ -389,6 +388,7 @@
                          "value":false
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":304.52245019328,
@@ -402,7 +402,7 @@
                  "value":"editor"
                 }],
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -429,7 +429,7 @@
                  "name":"above1",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":24,
                  "x":0,
                  "y":0
@@ -454,7 +454,7 @@
                  "name":"above2",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":24,
                  "x":0,
                  "y":0
@@ -462,7 +462,7 @@
          "name":"above",
          "opacity":1,
          "type":"group",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }],
@@ -496,7 +496,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.10.1",
  "tileheight":32,
  "tilesets":[
         {
@@ -641,6 +641,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":24
 }
