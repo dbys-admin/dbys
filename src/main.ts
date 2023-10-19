@@ -16,9 +16,15 @@ WA.onInit().then(() => {
         const time = today.getHours() + ":" + today.getMinutes();
         currentPopup = WA.ui.openPopup("clockPopup", "It's " + time, []);
     })
+	
 
     WA.room.area.onLeave('clock').subscribe(closePopup)
 
+
+	WA.chat.sendChatMessage('Hello world', 'Mr Robot');
+
+
+	
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
