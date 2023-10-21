@@ -29,7 +29,7 @@ WA.onInit().then(() => {
     WA.ui.actionBar.removeButton("backOfficeIcon");
     WA.ui.modal.openModal({
         title: "DBYs Coding Academy Metaverse",
-        src: "https://dbyoungs.com/test", 
+        src: "https://www.dbyoungs.com/test", 
         allow: "fullscreen", 
         allowApi: true, 
         position: "center"
