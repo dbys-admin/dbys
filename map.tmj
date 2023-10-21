@@ -768,7 +768,7 @@
         {
          "columns":6,
          "firstgid":2956,
-         "image":"..\/..\/..\/..\/Downloads\/classroom.png",
+         "image":"tilesets\/classroom.png",
          "imageheight":32,
          "imagewidth":192,
          "margin":0,
@@ -781,7 +781,7 @@
         {
          "columns":6,
          "firstgid":2962,
-         "image":"..\/..\/..\/..\/Downloads\/office.png",
+         "image":"tilesets\/office.png",
          "imageheight":32,
          "imagewidth":192,
          "margin":0,
