@@ -766,12 +766,30 @@
          "tilewidth":32
         }, 
         {
+         "columns":6,
          "firstgid":2956,
-         "source":"tilesets\/classroom.tsx"
+         "image":"..\/..\/..\/..\/Downloads\/classroom.png",
+         "imageheight":32,
+         "imagewidth":192,
+         "margin":0,
+         "name":"classroom",
+         "spacing":0,
+         "tilecount":6,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":6,
          "firstgid":2962,
-         "source":"tilesets\/office.tsx"
+         "image":"..\/..\/..\/..\/Downloads\/office.png",
+         "imageheight":32,
+         "imagewidth":192,
+         "margin":0,
+         "name":"office",
+         "spacing":0,
+         "tilecount":6,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
