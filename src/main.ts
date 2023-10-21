@@ -16,17 +16,9 @@ WA.onInit().then(() => {
         const time = today.getHours() + ":" + today.getMinutes();
         currentPopup = WA.ui.openPopup("clockPopup", "It's " + time, []);
     })
-	localStorage.setItem("Hello", "world");
+	
 
     WA.room.area.onLeave('clock').subscribe(closePopup)
-
-    console.log("Jeff", WA.ui.actionBar);
-	// WA.chat.sendChatMessage('Hello, Welcome to DBYs Coding Academy Metaverse!', 'DBYs Coding Academy Admin');
-    // localStorage.setItem("Modal", "False");
-    WA.ui.actionBar.removeButton("invite-btn");
-    WA.ui.actionBar.removeButton("menuIcon");
-
-    WA.ui.actionBar.removeButton("backOfficeIcon");
     WA.ui.modal.openModal({
         title: "DBYs Coding Academy Metaverse",
         src: "https://www.dbyoungs.com/test", 
@@ -34,7 +26,8 @@ WA.onInit().then(() => {
         allowApi: true, 
         position: "center"
     });
-
+    console.log("JEFFFHAHAHAHA")
+    
 
     // if (localStorage.getItem("Modal") == "False"){
     //     WA.ui.modal.openModal({
