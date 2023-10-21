@@ -16,7 +16,7 @@ WA.onInit().then(() => {
         const time = today.getHours() + ":" + today.getMinutes();
         currentPopup = WA.ui.openPopup("clockPopup", "It's " + time, []);
     })
-	
+	localStorage.setItem("Hello", "world");
 
     WA.room.area.onLeave('clock').subscribe(closePopup)
 
