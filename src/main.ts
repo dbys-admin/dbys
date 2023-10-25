@@ -20,13 +20,13 @@ WA.onInit().then(() => {
 
     WA.room.area.onLeave('clock').subscribe(closePopup)
    
-    // WA.ui.modal.openModal({
-    //     title: "DBYs Coding Academy Metaverse",
-    //     src: "https://www.dbyoungs.com/test", 
-    //     allow: "fullscreen", 
-    //     allowApi: true, 
-    //     position: "center"
-    // });
+    WA.ui.modal.openModal({
+        title: "DBYs Coding Academy Metaverse",
+        src: "https://www.dbyoungs.com/manual.html", 
+        allow: "fullscreen", 
+        allowApi: true, 
+        position: "center"
+    });
      
 
     // if (localStorage.getItem("Modal") == "False"){
